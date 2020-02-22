@@ -3,13 +3,15 @@ body {
     margin: 0px;
     background-color: #aaa;
     font-family: calibri,sans-serif;
+    align-content: center;
+    text-align: center;
 }
 
 header {
     background-color: #333;
     border-width: 0px;
     border-bottom-width: 5px;
-    padding:20px;
+    padding:25px;
     border-style: solid;
     border-color: #777;
 }
@@ -79,4 +81,14 @@ form {
 
 .invalid {
     color: #900;
+}
+
+footer {
+    padding:10px 25px;
+    background-color: #333;
+    border-width: 0px;
+    border-top-width: 5px;
+    border-style: solid;
+    border-color: #777;
+    color:#eee;
 }
