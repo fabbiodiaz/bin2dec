@@ -11,7 +11,6 @@ header {
     background-color: #333;
     border-width: 0px;
     border-bottom-width: 5px;
-    padding:25px;
     border-style: solid;
     border-color: #777;
 }
@@ -20,40 +19,29 @@ header > h1 {
     color:#aaa;
     margin:0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4rem;
+    font-size: 13vmin;
 }
 
 header > h2 {
     color:#999;
     margin:0px;
-    font-size: 1.2rem;
+    font-size: 4.5vmin;
 }
 
 #bin {
-    height: 2rem;
-    font-size: 2rem;
-    width: 150px;
+    height: 5vmin;
+    font-size: 5vmin;
+    width: 25vw;
     font-family:monospace;
+    margin: 1vmin;
 }
-
-/*input invalid{
-    border-width: 5px;
-    border-color: red;
-} */
 
 #input, #result{
     font-weight: bold;
-    padding:25px;
-    font-size: 1.5rem;
+    padding:5vmin 0px;
+    font-size: 5vmin;
 }
 
-#input, #label {
-    padding-right: 20px;
-}
-
-#result #dec-label {
-    padding-right: 20px;
-}
 #result {
     /*display:inline-block;*/
     background-color: #888;
@@ -67,7 +55,7 @@ form {
     display:inline-block;
     background-color: #333;
     color:#eee;
-    padding:4px 10px;
+    padding:1.4vmin 1vmin;
     border-radius: 10px;
 }
 
@@ -83,12 +71,22 @@ form {
     color: #900;
 }
 
+#banner {
+    width: 95vw;
+    margin:1.5vmin;
+}
+
 footer {
-    padding:10px 25px;
+    padding:2vmin;
     background-color: #333;
     border-width: 0px;
     border-top-width: 5px;
     border-style: solid;
     border-color: #777;
+    color:#eee;
+    font-size: 4vmin;
+}
+
+footer a:visited {
     color:#eee;
 }
