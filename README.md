@@ -5,6 +5,7 @@
 
 ### [Visite a página](https://fabbiodiaz.github.io/bin2dec)
 <br>
+
 > ## Escopo do projeto
 Criar uma ferramenta de conversão de número binário pada decimal atendendo as seguintes premissas:
 -   [ ] O usuário deve entrar com um número binário válido para proceder com a conversão.
