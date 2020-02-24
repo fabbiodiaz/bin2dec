@@ -3,7 +3,7 @@
 > ## Resumo
 *Bin2Dec* é um projeto conceitual de construção de um página responsiva que funciona como um conversor de números binários para decimal.
 
-## [Visite a página](https://fabbiodiaz.github.io/bin2dec)
+### [Visite a página](https://fabbiodiaz.github.io/bin2dec)
 <br>
 > ## Escopo do projeto
 Criar uma ferramenta de conversão de número binário pada decimal atendendo as seguintes premissas:
