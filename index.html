@@ -6,31 +6,27 @@
     <title>Bin2Dec - Conversor de binário para decimal Online</title>
 </head>
 <body>
-    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css">
     <header>
         <h1>Bin2Dec.com</h1>
-        <h2>Seu conversor de binário para decimal online!</h2>
     </header>
     <div id=input>
         <form>
-            <label id="bin-label" for="bin">Insira o valor binário</label>
-            <input type="text" id="bin" name="bin">
+            <div>
+                <label id="bin-label" for="bin">Insira o valor binário</label>
+            </div>
+            <div>
+                <input type="text" id="bin" name="bin" autocomplete="off">
+            </div>
         </form>
-        <a href="#converter"id="btn">Converter</a>
     </div>
     <div id=result>
-        <span id="dec-label">Valor Decimal:</span>
-        <span id="dec">0</span>
-    </div>
-    <div id="ad">
-        <a href="https://github.com/fabbiodiaz/">
-            <img id="banner" src="./banner.jpg">
-        </a>
+        <div id="dec-label">Valor Decimal:</div>
+        <div id="dec">0</div>
     </div>
     <footer>
-        <div id="repository-link"> Repositório no <a href="https://github.com/fabbiodiaz/bin2dec">GitHub</a></div>
+        <div id="repository-link"> Repositório no <a href="https://github.com/fdias1/bin2dec">GitHub</a></div>
     </footer>
-    <script src="./index.js"></script>
-
+    <script src="./public/scripts/index.js"></script>
 </body>
 </html>
