@@ -15,4 +15,4 @@ Criar uma ferramenta de conversão de número binário pada decimal atendendo as
 
 
 > ## Ferramentas utilizadas
-Somente javascript,CSS e HTML puros foram utilizados neste projeto.
+Somente javascript, CSS e HTML foram utilizados neste projeto, sem utilização de frameworks.
