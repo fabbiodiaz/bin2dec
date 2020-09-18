@@ -11,7 +11,6 @@ body {
     height: 100%;
     display:grid;
     grid-template-rows: 20vh 1fr 1fr 8vmin;
-
 }
 input:focus{
     outline: none;
@@ -29,6 +28,15 @@ header > h1 {
     margin:0px;
     font-size: 13vmin;
 }
+#input {
+    display:flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding:5vmin 0px;
+    font-size: 5vmin;
+    background-color: #9600ff;
+}
 #bin-label {
     color:#fff;
 }
@@ -41,14 +49,14 @@ header > h1 {
     border-radius: 8px;
     padding: 0 12px;
 }
-#input {
-    display:flex;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
+#result {
     padding:5vmin 0px;
     font-size: 5vmin;
-    background-color: #9600ff;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ff8300;
 }
 #dec-label {
     font-weight: bold;
@@ -62,26 +70,20 @@ header > h1 {
     display:block;
     width: 30vmin;
 }
-#result {
-    padding:5vmin 0px;
-    font-size: 5vmin;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ff8300;
-}
-.invalid {
-    color: #fe4164 !important;
-}
 footer {
     padding:2vmin;
     background-color: #56ff00;
     color:#000;
     font-size: 4vmin;
+}
+footer a {
     text-decoration: none;
+    color:#000;
 }
 footer a:visited {
     color:#000;
     text-decoration: none;
+}
+.invalid {
+    color: #fe4164 !important;
 }
